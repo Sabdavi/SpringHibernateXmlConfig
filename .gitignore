@@ -1,1 +1,4 @@
 /SpringHibernateXmlConfig.iml
+.gitignore
+.idea
+target
