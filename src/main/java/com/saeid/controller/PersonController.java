@@ -23,6 +23,6 @@ public class PersonController {
     @GetMapping("/persons")
         public ResponseEntity<List<Person>>  getPersons(){
         List<Person> persons = service.getPersons();
-        return new ResponseEntity<>(persons, HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(persons, HttpStatus.OK);
     }
 }
